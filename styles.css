@@ -1,0 +1,17 @@
+body {
+    background: #D6E4E5 !important;
+}
+
+nav {
+    
+}
+
+
+.home-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    background: #D6E4E5;
+    box-shadow: 5px -5px 10px #b6c2c3,
+    -5px 5px 10px #f6ffff; 
+}
