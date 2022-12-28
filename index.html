@@ -1,70 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to DJ Chase</title>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Bootstrap Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/ba09da393d.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to DJ Chase</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="player.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ba09da393d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Nav -->
-    <div class="container-fluid justify-content-center">
-        <div class="row align-items-start">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <div><i class="fa-brands fa-facebook"></i></div> 
-            <div><i class="fa-brands fa-instagram"></i></div> 
-              <div><i class="fa-brands fa-twitter"></i></div>
-              <div><i class="fa-brands fa-youtube"></i></div>
-              <div<i class="fa-brands fa-spotify"></i></div>
-              <div><i class="fa-brands fa-itunes"></i></div>
+  <!-- Nav -->
+
+
+  <header>
+    <nav class="main-nav">
+      <div class="container">
+        <a href="#" class="main-nav__logo"></a>
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--active"><a href="#b" class="main-nav__link">Home</a></li>
+          <li class="main-nav__item"><a href="#c" class="main-nav__link">About</a></li>
+          <li class="main-nav__item"><a href="#d" class="main-nav__link">Videos</a></li>
+          <li class="main-nav__item"><a href="#e" class="main-nav__link">Contact</a></li>
+          <li class="main-nav__item"><a href="#e" class="main-nav__link social-link"><i
+                class="fa-brands fa-twitter"></i></a></li>
+          <li class="main-nav__item"><a href="#e" class="main-nav__link social-link"><i
+                class="fa-brands fa-instagram"></i></a></li>
+          <li class="main-nav__item"><a href="#e" class="main-nav__link social-link"><i
+                class="fa-brands fa-youtube"></i></a></li>
+          <li class="main-nav__item"><a href="#e" class="main-nav__link social-link"><i
+                class="fa-solid fa-envelope"></i></a></li>
+          <li class="main-nav__item"><a href="#e" class="main-nav__link social-link"><i
+                class="fa-solid fa-globe"></i></a></li>
+          <li class="main-nav__active"></li>
+
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main>
+    <img  class="name-logo" src="media/images/DJ Chase Logo White.png">
+    <div id="music-section" style="width: 50%;">
+      <div id="a">
+        
+        <h3>The New Single "Make A Wish"</h3>
+        <div class="buttons">
+          <button class="button">Buy Track $1.99</button>
+          <button class="button">Share<i class="fa-solid fa-share-from-square share-btn"></i></button>
+        </div>
+        <div id="music-btns">
+          <img src="media/images/US-UK_Apple_Music_Listen_on_Badge_RGB_072720.svg">
+          <img class="music-icon" src="media/images/Spotify_Logo_RGB_Green.png">
+          <img class="music-icon" style="width: 80px"
+            src="media/images/available_at_amazon_US_EN_logo_stacked_RGB_WHITE.png">
+        </div>
+        <div id="album">
+
+          <div id="cover">
+            <div id="print">
             </div>
           </div>
-        </div>
-      </nav>
-    </div>
-</div>
-</div>
+          <div id="vinyl">
+          </div>
+          <img class="home-img" src="media/images/dj chase phone.png">
 
-      <!-- Content -->
-      <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col-md-6">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4z9yoXi8LPsR3EHDXmijYn?utm_source=generator" width="70%" height="352" frameBorder="0" allowfullscreen="" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-          </div>
-          <div class="col-md-6">
-            <img class="home-img" src = "media/images/djchase-home.jpeg">
-          </div>
         </div>
+
+
+      </div>
+    </div>
+    <!-- Bio & Stuff -->
+
+    <div id="content">
+      <div id="b">
+      </div>
+
+      <div id="c">
+        <h2>About DJ Chase</h2>
+
+        DJ Chase is the founder of New York City-based Worldwide Soundz Records and DJ Chase Publishing, LLC. As a
+        professional DJ, he specializes in Hip Hop, R&B, Reggae/ Dance-Hall, old-school, and House music, performing in
+        shows throughout Connecticut, Atlanta, Boston, and Lawrence MA. As he grew as a live DJ, he branched out to
+        radio, mixing on stations such as 88.9 FM Oswego New York, Sirius XM Satellite Radio’s Shade 45, and
+        Connecticut's Smack Em' Radio. In 2022, he launched his own radio station, DJ Chase Radio. As a producer, he has
+        produced many artists including Hip-Hop star, Molly Mccoy. Mccoy's biggest hit to date, "Big Mad," was played by
+        DJ Drewski on Hot 97 FM, before reaching 12,000 streams on Spotify as of 2020. DJ Chase has ascended into
+        beat-making, dropping his most recent lo-fi effort, Monday Night Lights. His music catalog has garnered over 11
+        million streams independently.<br><br>
+
+      </div>
+
+      <div id="d">
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ct4sVYTrJ4Q" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe><br><br>
+      </div>
+      <div id="e">
+        <h2>Booking & Contact</h2>
+        <div>
+          <form action="" method="post">
+            <div class="field">
+              <label for="name" class="label is-size-4 has-text-weight-light">
+                Name:
+              </label>
+              <input style="width: 594px; height: 29px;" type="text" name="name" id="name" class="input" autofocus>
+            </div>
+            <div class="field">
+              <label for="email" class="label is-size-4 has-text-weight-light">
+                Email:
+              </label>
+              <input style="width: 594px; height: 29px;" type="email" name="email" id="email" class="input">
+            </div>
+            <div class="field">
+              <label for="message" class="label is-size-4 has-text-weight-light">
+                Message:
+              </label>
+              <textarea style="width: 594px; height: 79px;" name="message" id="message" rows="5"
+                class="textarea is-large"></textarea>
+            </div>
+            <button type="submit" class="button is-success is-size-5">Submit</button>
+          </form>
         </div>
-     
-    
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="index.js"></script>   
+
+
+  </main>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <script src="player.js"></script>
+
 </body>
+
 </html>
