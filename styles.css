@@ -5,7 +5,9 @@
     --default-font-family: 'Montserrat', sans-serif;
   }
 
-
+* {
+    box-sizing: border-box;
+}
 
 a {
     text-decoration: none;
@@ -32,22 +34,33 @@ body {
     color: var(--branding-color);
 }
 
-#a{
-    margin-top: -15px;
-}
 #content{
-    margin-top: -105px;
+    margin-top: -100px;
+}
+#music-section {
+    margin-top: -155px;
+    margin-right: 50%;
 }
 
-#a,
+#music-section,
 #content {
     box-sizing: border-box;
     padding: 50px;
     display: inline-block;
-    height: 150px;
+    height: 150%;
     vertical-align: top;
     
 
+}
+
+#content {
+    text-align: justify;
+    overflow-y: auto;
+    overflow-x: hidden;
+    float:right;
+    height: 500px;
+    width: 50%;
+  
 }
 .buttons{
     padding-bottom: 10px;
@@ -72,15 +85,7 @@ body {
 
 
 
-#content {
-    text-align: justify;
-    overflow-y: auto;
-    overflow-x: hidden;
-    float:right;
-    height: 500px;
-    width: 50%;
-    margin-top: -15%;
-}
+
 
 .header {
 	
@@ -116,7 +121,7 @@ body {
 		padding: 1rem 1px;
 		float: left;
 	}
-	.main-nav__active { 
+	/* .main-nav__active { 
 		transition: all 0.5s cubic-bezier(.55, 0, .1, 1);
 		background:var(--secondary-color);
 		height: 3px;
@@ -124,11 +129,9 @@ body {
 		position: absolute;
 		left: 0;
 		bottom: 3px;
-	}
+	} */
 
-    #music-section {
-        margin-top: -155px;
-    }
+   
 
 
       i{
@@ -148,13 +151,12 @@ body {
         white-space: 0;
       }
       
-      .main-nav a:hover {
+      /* .main-nav a:hover {
         color:var(--secondary-color);
-      }
+      } */
 
 .music-icon{
-    width: 125px;
-    height: 41px;
+    width: 20%;
     z-index: 2;
 }
 
@@ -163,8 +165,8 @@ body {
 }
 
 .name-logo{
-    width: 600px;
-    height: 400px;
+    width: 60%;
+    height: 40%;
     z-index: -9999;
     padding: 0;
     margin-top: -1%;
@@ -175,8 +177,8 @@ body {
   z-index: -1;
   margin-top: -60%;
   margin-left: 64%;
-  height: 515px;
-  width: 600px;
+  height: 190%;
+  width: 200%;
 
   
 
@@ -192,4 +194,19 @@ body {
     color: black;
   }
 
-
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    #music-section {
+      width: 80%;
+      padding: 0;
+    }
+    #content{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #music-section,  #content, .home-img{
+      width: 100%;
+    }
+  }

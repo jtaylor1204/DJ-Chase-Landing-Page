@@ -1,9 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+
 #album {
 	position: absolute;
 	height: 40%;
 	width: 25%;
 	max-height: 75%;
-	max-width: 75vh;
+	max-width: 40%;
 }
 
 
@@ -12,6 +17,8 @@
 	z-index: 1;
 	width: 100%;
 	height: 100%;
+	max-width: 100%;
+	min-width: 100%;
 	background-image: url('media/images/dj\ chase\ -\ make\ a\ wish\ official\ artwork\ \(3000\ ×\ 3000\ px\).png');
 	background-size: 100% 100%;
 	box-shadow: 5px 0 20px 0 rgba(0, 0, 0, 0.6),
@@ -27,6 +34,7 @@
 	left: 2.5%;
 	width: 80%;
 	height: 95%;
+	max-width: 100%;
 	display: block;
 	background-image: url('https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Music-PNG/Gramophone_Vinyl_LP_Record_PNG_Transparent_Clip_Art_Image.png?m=1462983196');
 	background-size: 106% 106%;
@@ -73,7 +81,7 @@
 	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/play.svg') center / cover no-repeat;
 	background-size: cover;
 	border-radius: 50%;
-	filter:brightness(151%);
+	filter:brightness(161%);
 
 }
 
@@ -116,4 +124,19 @@
 	}
 }
 
-
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.main {
+	  width: 80%;
+	  padding: 0;
+	}
+	.right {
+	  width: 100%;
+	}
+  }
+  @media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+	  width: 100%;
+	}
+  }
