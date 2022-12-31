@@ -154,9 +154,9 @@ footer i:hover {
 
 }
 
-/* @media only screen and (max-width:400px) {
+@media only screen and (max-width:100px) {
 
-
+  /* For mobile phones: */
   .navbar img {
     margin-left: 50px;
   }
@@ -168,10 +168,10 @@ footer i:hover {
   .footer-text {
     margin-left: 50px;
   }
-} */
+}
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
 
   /* For mobile phones: */
   .navbar img {
