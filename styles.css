@@ -1,63 +1,69 @@
 :root {
-    --branding-color:  #fff;
-    --secondary-color: #D60A0A;
-    --heading-font-family: 'Vujahday Script', cursive !important;
-    --default-font-family: 'Montserrat', sans-serif !important;
-  }
+  --branding-color: #fff;
+  --secondary-color: #D60A0A;
+  --heading-font-family: 'Vujahday Script', cursive !important;
+  --default-font-family: 'Montserrat', sans-serif !important;
+}
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 /* Elements */
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 6.75rem;
-    color: black;
-    font-family: var(--heading-font-family)!important;
-    transform: rotate(-20deg);
+  font-weight: 900;
+  font-size: 6.75rem;
+  color: black;
+  font-family: var(--heading-font-family) !important;
+  transform: rotate(-20deg);
 }
 
 h2 {
-    font-family: var(--heading-font-family)!important;
+  font-family: var(--heading-font-family) !important;
 
 }
 
 body {
-    background: url('media/images/1.png');
-    background-size: cover;
-    background-position: center center;
-    height: 75vh;
-    margin: 5%;
-    font-family: var(--default-font-family)!important;
-    color: var(--branding-color) !important;
+  background: url('media/images/1.png');
+  background-size: cover;
+  background-position: center center;
+  height: 75vh;
+  margin: 5%;
+  font-family: var(--default-font-family) !important;
+  color: var(--branding-color) !important;
 }
 
 /* Nav */
-
-.navbar-nav i{
-        color: var(--branding-color);
-        background: black;
-        padding: 9px 9px;
-        border-radius: 50%;
-        font-size: 2.2rem;
-      }
-      .navbar-nav i:hover{
-        background: var(--secondary-color);
-        color: white;
-      }
-
-/* Music Section */
-.buttons{
-  padding-bottom: 10px;     
+.navbar-nav {
+  flex-direction: row !important;
 }
 
-.music-btn, .is-success {
+.navbar-nav i {
+  color: var(--branding-color);
+  background: black;
+  padding: 9px 9px;
+  border-radius: 50%;
+  font-size: 2.2rem;
+}
+
+.navbar-nav i:hover {
+  background: var(--secondary-color);
+  color: white;
+}
+
+/* Music Section */
+.buttons {
+  padding-bottom: 10px;
+}
+
+.music-btn,
+.is-success {
   padding: 16px 16px;
-  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
   background: var(--secondary-color);
   color: black;
   font-size: 1rem;
@@ -68,78 +74,117 @@ body {
   border-radius: 10px !important;
 
 }
-button:hover{
-color: #fff;
+
+button:hover {
+  color: #fff;
 }
-.music-icon{
+
+.music-icon {
   width: 141px;
   height: 41px;
-  padding:3px;
-  
+  padding: 3px;
+
 }
-.music-icons{
+
+.music-icons {
   display: inline;
-  padding-bottom: 10px;  
-  
+  padding-bottom: 10px;
+
 }
 
-.share-btn{
-    background: none;
-    color: black;
-    font-size: 1rem;
+.share-btn {
+  background: none;
+  color: black;
+  font-size: 1rem;
 
-  }
+}
 
- /* Main Photo */
+/* Main Photo */
 
 
 /*Content Section */
 
-#content{
-    text-align: justify;
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 500px;   
+#content {
+  text-align: justify;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 500px;
 }
-form{
+
+form {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
 .video {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
 
 /* Footer */
- footer i{
+footer i {
   color: var(--branding-color);
   background: black;
   border-radius: 50%;
   padding: 5px 5px;
- }
+}
 
- footer i:hover{
+footer i:hover {
   background: var(--secondary-color);
   color: white;
- }
- .footer-text{
-  color: #fff;
- }
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-text:hover {
+  color: var(--secondary-color);
+}
 
 
 /* Media queries */
-@media only screen and (max-width:500px) {
-	/* For mobile phones: */
-	 .navbar img{ 
-	  margin-left: 100px;
-	}
-  .navbar-nav{
+
+@media only screen and (max-width:1200px) {
+
+  /* For landscape tablets */
+  .home-img {
+    margin-left: -30px !important;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+
+  /* For mobile phones: */
+  .navbar img {
+    margin-left: 100%;
+  }
+
+  .navbar-nav {
     flex-direction: row !important;
-    margin-left: 100px;
+    margin-left: 100%;
+  }
+
+  .footer-text {
+    margin-left: 110px;
   }
 }
 
 
+@media only screen and (max-width:500px) {
 
-  
+  /* For mobile phones: */
+  .navbar img {
+    margin-left: 100px;
+  }
 
+  .navbar-nav {
+    margin-left: 100px;
+  }
+
+  .footer-text {
+    margin-left: 110px;
+  }
+
+}
