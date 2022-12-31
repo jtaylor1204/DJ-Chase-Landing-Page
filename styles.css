@@ -154,7 +154,7 @@ footer i:hover {
 
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:300px) {
 
   /* For mobile phones: */
   .navbar img {
