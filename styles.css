@@ -158,11 +158,11 @@ footer i:hover {
 
   /* For mobile phones: */
   .navbar img {
-    margin-left: 60px;
+    margin-left: -60px;
   }
 
   .navbar-nav {
-    margin-left: 60px;
+    margin-left: -60px;
   }
 
   .footer-text {
