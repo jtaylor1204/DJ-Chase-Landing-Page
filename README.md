@@ -1,42 +1,29 @@
 # DJ-Chase-Landing-Page
-# Task Manager
-![11](https://user-images.githubusercontent.com/102535399/199247381-92b103bd-a375-4a55-9c73-e02f7f4e2274.png)
-![12](https://user-images.githubusercontent.com/102535399/199247384-5fa822cf-24b4-4b1c-895c-a306cc2cc660.png)
+![djchase](https://user-images.githubusercontent.com/102535399/216232100-30e40499-0baa-4592-9134-88ebb94af7e3.gif)
 
 ## Overview
 
-This app was created as a final project for my junior web developer bootcamp.
+This landing page was designed with Bootstrap & jQuery for my work with DJ Chase Publishing LLC. These pages are meant to promote artist music singles, and feature a song player, YouTube video player, a bio with copy written by me, and social media links.
 
-#### LIVE LINK : https://jtaylor1204.github.io/JWD-Final-Project/#
+#### LIVE LINK : https://jtaylor1204.github.io/DJ-Chase-Landing-Page/
 
 ## Features
 
-- You can add tasks to a task list with data including: task name, task description, task assignment (who will complete it), due date, and status (to-do, in review, in progress).
+- Responsive music player that resizes on mobile
 
-- Adding a task that is due today will populate the "today's tasks" and "all tasks" boxes.
+- Contact form, YouTube player, and artist bio
 
-- All other tasks will only populate the "all tasks" boxes.
-
-- Tasks can be deleted from the screen and the task boxes.
-
-## Bugs/Updates to be made - I am always open to comments and guidance on how to solve these!
-
-- [ ] Fix the bug in the decrement of the task boxes (they currently only decrement to 1)
-- [ ] The first day of the month prints as an extra day of the previous month (i.e; a task assigned a "11/1/2022" due date prints as "10/32/2022"
-- [ ] Conduct more unit testing
-- [ ] Add more React components
 
 ## Tech Used / Dependencies
 
-- This is vanilla JS App used with Bootstrap framework.
+- jQuery
 
-- Color inspiration from: [Color Hunt](https://colorhunt.co/)
+- Bootstrap
 
 - Fonts from [Google Fonts](https://fonts.google.com/)
 
 - Icons from [Font Awesome](https://fontawesome.com/)
 
-- Project credit to [Michael O'Connor] (https://github.com/oconnor97)
 
 ## Contribute
 
